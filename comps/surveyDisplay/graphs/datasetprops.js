@@ -4,7 +4,7 @@
 export default class Dataset{
     constructor(){
         this.metaData = {
-                label: 'Previous Dataset',
+                label: 'Conjunto de dados anterior',
                 backgroundColor: 'rgba(179,181,198,0.5)',
                 borderColor: 'rgba(179,181,198)',
                 borderWidth: 2,

@@ -33,7 +33,7 @@ class ComponentToPrint extends React.PureComponent {
                         </script>
                         {/* <h2 id="finalscore">Your overall score is {this.props.finalScore}</h2> */}
                         <GaugeChart id="gauge-chart2" nrOfLevels={4} percent={this.props.percentageScore} textColor ={"#000000"} colors={[" #ff6384","#ff9f40","#ffcd56","#4bc0c0"]} className="gauge"/>
-                        <h2 id="totalsbargraph"> Bar graph of totals </h2>
+                        <h2 id="totalsbargraph"> Gráfico de barras dos totais </h2>
                         <Bar data = {this.props.graphObjects['totalsbar'].metaData} options = {this.props.graphObjects['totalsbar'].layout_props} className='totalsBar' />
                     </Box> 
                 </Flex>
@@ -41,11 +41,11 @@ class ComponentToPrint extends React.PureComponent {
             <div label='Business Functions'>
                 <Flex flexWrap = 'wrap'>
                     <Box width ={[1,1/2]} p = {3} className='bussFuncRadarBox'>
-                        <h2 id = "busfuncradargraph">Business function Radar Graph</h2>
+                        <h2 id = "busfuncradargraph">Gráfico de radar de função de negócios</h2>
                         <Radar data = {this.props.graphObjects['bussFuncRadar'].metaData}  options = {this.props.graphObjects['bussFuncRadar'].layout_props}/>
                     </Box>
                     <Box width ={[1,1/2]} p = {3} className='bussFuncBarBpx'>
-                        <h2 id = "busfuncbargraph"> Business Functions Bar Graph </h2>
+                        <h2 id = "busfuncbargraph"> Gráfico de Barras de Funções de Negócios </h2>
                         <Bar data = {this.props.graphObjects['bussFuncBar'].metaData} options = {this.props.graphObjects['bussFuncBar'].layout_props} className='bussFuncBarGraph'/>
                     </Box>                  
                 </Flex>
@@ -53,11 +53,11 @@ class ComponentToPrint extends React.PureComponent {
             <div label='Practices' className="practices">
                 <Flex flexWrap = 'wrap'>
                     <Box width ={[1,1/2]} p = {3} className="practiceRadarBox">
-                        <h2 id = "pracradargraph">Practices Radar Graph</h2>
+                        <h2 id = "pracradargraph">Gráfico de Radar de Práticas</h2>
                         <Radar  data = {this.props.graphObjects['practiceRadar'].metaData}  options = {this.props.graphObjects['practiceRadar'].layout_props} />
                     </Box>
                     <Box width ={[1,1/2]} p = {3} className="practicesBarBox">
-                        <h2 id ="pracbargraph"> Practices Bar Graph </h2>
+                        <h2 id ="pracbargraph"> Gráfico de Barras de Práticas </h2>
                         <Bar data = {this.props.graphObjects['practiceBar'].metaData} options = {this.props.graphObjects['practiceBar'].layout_props} />
                     </Box>
                 </Flex> 

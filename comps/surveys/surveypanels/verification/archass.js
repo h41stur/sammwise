@@ -1,183 +1,183 @@
 const archass = () => {return ({
     "type": "panel",
-    "name": "Architecture Assessment",
+    "name": "Avaliação de Arquitetura",
     "elements": [
       {
         "type": "radiogroup",
         "id": "2da7acf355814b75ab971fec36048f11",
-        "title": "Do you review the application architecture for key security objectives on an ad-hoc basis?",
+        "title": "Você revisa a arquitetura do aplicativo para os principais objetivos de segurança de forma ad hoc?",
         "titleLocation": "left",
-        "description": "You have an agreed upon model of the overall software architecture",
+        "description": "Você tem um modelo acordado da arquitetura geral do software",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b133d28653bc47a8a8574d1c60ec34f0",
-        "title": "Do you regularly review the security mechanisms of your architecture?",
+        "title": "Você revisa regularmente os mecanismos de segurança de sua arquitetura?",
         "titleLocation": "left",
-        "description": "You review compliance with internal and external requirements",
+        "description": "Você analisa a conformidade com os requisitos internos e externos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "ba213b2d5fc844a386010ca53cf87fb8",
-        "title": "Do you regularly review the effectiveness of the security controls?",
+        "title": "Você revisa regularmente a eficácia dos controles de segurança?",
         "titleLocation": "left",
-        "description": "You evaluate the preventive, detective, and response capabilities of security controls",
+        "description": "Você avalia os recursos preventivos, de detecção e de resposta dos controles de segurança",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b920062a62d84883af0c167955ec10de",
-        "title": "Do you review the application architecture for mitigations of typical threats on an ad-hoc basis?",
+        "title": "Você revisa a arquitetura do aplicativo para mitigação de ameaças típicas de forma ad hoc?",
         "titleLocation": "left",
-        "description": "You have an agreed upon model of the overall software architecture",
+        "description": "Você tem um modelo acordado da arquitetura geral do software",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "2784c6272d174dcf932b188a69a8917d",
-        "title": "Do you regularly evaluate the threats to your architecture?",
+        "title": "Você avalia regularmente as ameaças à sua arquitetura?",
         "titleLocation": "left",
-        "description": "You systematically review each threat identified in the Threat Assessment",
+        "description": "Você revisa sistematicamente cada ameaça identificada na Avaliação de Ameaças",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "df317b6ac5de4815a1ba7ac558d0263e",
-        "title": "Do you regularly update your reference architectures based on architecture assessment findings?",
+        "title": "Você atualiza regularmente suas arquiteturas de referência com base nos resultados da avaliação de arquitetura?",
         "titleLocation": "left",
-        "description": "You assess your architectures in a standardized, documented manner",
+        "description": "Você avalia suas arquiteturas de maneira padronizada e documentada",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       }
     ],
-    "title": "Architecture Assessment",
+    "title": "Avaliação de Arquitetura",
     "state": "expanded"
   });}
 export default archass;

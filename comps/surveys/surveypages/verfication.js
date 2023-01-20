@@ -5,7 +5,7 @@ import sectest from "../surveypanels/verification/sectest"
 
 //Skeleton of the Page 
 var tosend = {
-    name: "Verification",
+    name: "Verificação",
     elements: [{
 
          //Append later

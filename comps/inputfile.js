@@ -17,7 +17,7 @@ const InputFile = (props) => {
 
 
     const [uploadState, setUploadState] = useState(false)
-    const [uploadMessage, setUploadMessage] = useState("Drag 'n' Drop some files here, or click to select files")
+    const [uploadMessage, setUploadMessage] = useState("Arraste e solte alguns arquivos aqui ou clique para selecionar os arquivos")
     const [uploadColour, setUploadColour] = useState("default")
     var uploadPageState = false
     if (props.pageName == "assesment"){

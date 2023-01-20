@@ -1,183 +1,183 @@
 const securebuild = () => {return ({
     "type": "panel",
-    "name": "Secure Build",
+    "name": "Construção Segura",
     "elements": [
       {
         "type": "radiogroup",
         "id": "70d6044a223b402c8e2b6f9d1e936641",
-        "title": "Is your full build process formally described?",
+        "title": "Seu processo de construção completo é formalmente descrito?",
         "titleLocation": "left",
-        "description": "You have enough information to recreate the build processes",
+        "description": "Você tem informações suficientes para recriar os processos de construção",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b5d33583538b4878bb4674a5f838b8ea",
-        "title": "Is the build process fully automated?",
+        "title": "O processo de compilação é totalmente automatizado?",
         "titleLocation": "left",
-        "description": "The build process itself doesn't require any human interaction",
+        "description": "O processo de construção em si não requer nenhuma interação humana",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "ee775955bf7f48d294c75f6384232f48",
-        "title": "Do you enforce automated security checks in your build processes?",
+        "title": "Você aplica verificações de segurança automatizadas em seus processos de construção?",
         "titleLocation": "left",
-        "description": "Builds fail if the application doesn't meet a predefined security baseline",
+        "description": "As compilações falham se o aplicativo não atende a uma linha de base de segurança predefinida",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "1e28b82cc3ba4e4ea2552746e17c25af",
-        "title": "Do you have solid knowledge about dependencies you're relying on?",
+        "title": "Você tem um conhecimento sólido sobre as dependências nas quais está contando?",
         "titleLocation": "left",
-        "description": "You have a current bill of materials (BOM) for every application",
+        "description": "Você tem uma lista de materiais atual para cada aplicação",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "ef798e60155d453186364c94a8f8935d",
-        "title": "Do you handle 3rd party dependency risk by a formal process?",
+        "title": "Você lida com o risco de dependência de terceiros por um processo formal?",
         "titleLocation": "left",
-        "description": "You keep a list of approved dependencies that meet predefined criteria",
+        "description": "Você mantém uma lista de dependências aprovadas que atendem a critérios predefinidos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "418e98e2939546e69a24d0c3c4c8d217",
-        "title": "Do you prevent build of software if it's affected by vulnerabilities in dependencies?",
+        "title": "Você impede a construção de software se for afetado por vulnerabilidades em dependências?",
         "titleLocation": "left",
-        "description": "Your build system is connected to a system for tracking 3rd party dependency risk, causing build to fail unless the vulnerability is evaluated to be a false positive or the risk is explicitly accepted",
+        "description": "Seu sistema de compilação está conectado a um sistema para rastrear o risco de dependência de terceiros, fazendo com que a compilação falhe, a menos que a vulnerabilidade seja avaliada como um falso positivo ou o risco seja explicitamente aceito",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       }
     ],
-    "title": "Secure Build",
+    "title": "Construção Segura",
     "state": "expanded"
   });}
 export default securebuild;

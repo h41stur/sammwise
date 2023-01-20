@@ -18,7 +18,7 @@ import verificationJSON from "./surveypages/verfication"
             ],
             
             
-            startSurveyText: "Start Survey",
+            startSurveyText: "Iniciar Pesquisa",
             questionStartIndex: "1"
         }
     //appending to the pages category

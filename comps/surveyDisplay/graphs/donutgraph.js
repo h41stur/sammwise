@@ -5,10 +5,10 @@ export default class DonutGraph{
         this.metaData = {
     
             labels: [
-              "Bad",
-              "Less than ideal",
+              "Má",
+              "Menos que o ideal",
               "Okay",
-              "Good"
+              "Bom"
             ],
             datasets: [{
               data: [],
@@ -56,7 +56,7 @@ export default class DonutGraph{
     
             elements: {
               center: {
-                text: 'Red is 2/3 of the total numbers',
+                text: 'Vermelho é 2/3 dos números totais',
                 color: '#FF6384', // Default is #000000
                 fontStyle: 'Arial', // Default is Arial
                 sidePadding: 20, // Default is 20 (as a percentage)

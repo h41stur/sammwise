@@ -4,7 +4,7 @@ export default class SpiderGraph{
             labels:[],
             datasets:[
                 {
-                    label: 'Current Assessment',
+                    label: 'Avaliação Atual',
                     backgroundColor: 'rgba(255, 24, 0, 0.2)',
                     borderColor: 'rgba(255, 99, 132)',
                     pointBackgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -14,7 +14,7 @@ export default class SpiderGraph{
                     data: [] 
                 },
                 {
-                    label: 'Previous Assessment',
+                    label: 'Avaliação Anterior',
                     backgroundColor: 'rgba(179,181,198,0.2)',
                     borderColor: 'rgba(179,181,198,1)',
                     pointBackgroundColor: 'rgba(179,181,198,1)',
@@ -36,7 +36,7 @@ export default class SpiderGraph{
             plugins: {
                 title: {
                     display:true,
-                    text:"Score for each",
+                    text:"Score para cada",
                     padding:{
                         top: 10,
                         bottom:30

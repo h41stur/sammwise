@@ -1,183 +1,183 @@
 const secarch = () => {return ({
     "type": "panel",
-    "name": "Security Architecture",
+    "name": "Arquitetura de segurança",
     "elements": [
       {
         "type": "radiogroup",
         "id": "c4eb5618d1814173a995f8aea96f1c0b",
-        "title": "Do teams use security principles during design?",
+        "title": "As equipes usam princípios de segurança durante o design?",
         "titleLocation": "left",
-        "description": "You have an agreed upon checklist of security principles",
+        "description": "Você tem uma lista de verificação acordada de princípios de segurança",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "3f1a3a84c85f4e339bcc5c9ecca5c73a",
-        "title": "Do you use shared security services during design?",
+        "title": "Você usa serviços de segurança compartilhados durante o projeto?",
         "titleLocation": "left",
-        "description": "You have a documented list of reusable security services, available to relevant stakeholders",
+        "description": "Você tem uma lista documentada de serviços de segurança reutilizáveis, disponível para as partes interessadas relevantes",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "cb88049632b54a15b3d610c4d492e83e",
-        "title": "Do you base your design on available reference architectures?",
+        "title": "Você baseia seu projeto em arquiteturas de referência disponíveis?",
         "titleLocation": "left",
-        "description": "You have one or more approved reference architectures documented and available to stakeholders",
+        "description": "Você tem uma ou mais arquiteturas de referência aprovadas documentadas e disponíveis para as partes interessadas",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "47c8fb0cae5944d090d7f73f7632dc9f",
-        "title": "Do you evaluate the security quality of important technologies used for development?",
+        "title": "Você avalia a qualidade da segurança de tecnologias importantes usadas para desenvolvimento?",
         "titleLocation": "left",
-        "description": "You have a list of the most important technologies used in or in support of each application",
+        "description": "Você tem uma lista das tecnologias mais importantes usadas em ou no suporte de cada aplicativo",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b63b5fa0f5bc455bb5b1dd9168c44000",
-        "title": "Do you have a list of recommended technologies for the organization?",
+        "title": "Você tem uma lista de tecnologias recomendadas para a organização?",
         "titleLocation": "left",
-        "description": "The list is based on technologies used in the software portfolio",
+        "description": "A lista é baseada em tecnologias utilizadas no portfólio de software",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some of the technology domains"
+            "text": "Sim, para alguns dos domínios de tecnologia"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the technology domains"
+            "text": "Sim, para pelo menos metade dos domínios tecnológicos"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the technology domains"
+            "text": "Sim, para a maioria ou todos os domínios de tecnologia"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "f4722a4fdfc44a45be5b5ee8dd7b735f",
-        "title": "Do you enforce the use of recommended technologies within the organization?",
+        "title": "Você impõe o uso de tecnologias recomendadas dentro da organização?",
         "titleLocation": "left",
-        "description": "You monitor applications regularly for the correct use of the recommended technologies",
+        "description": "Você monitora aplicativos regularmente para o uso correto das tecnologias recomendadas",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       }
     ],
-    "title": "Security Architecture",
+    "title": "Arquitetura de segurança",
     "state": "collapsed"
   });}
 export default secarch;

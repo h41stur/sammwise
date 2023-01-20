@@ -1,183 +1,183 @@
 const policy = () => {return ({
     "type": "panel",
-    "name": "Policy and Compliance",
+    "name": "Política e Conformidade",
     "elements": [
       {
         "type": "radiogroup",
         "id": "d15bfcd426d24a43b9417a0464b3af44",
-        "title": "Do you have and apply a common set of policies and standards throughout your organization?",
+        "title": "Você tem e aplica um conjunto comum de políticas e padrões em toda a sua organização?",
         "titleLocation": "left",
-        "description": "You have adapted existing standards appropriate for the organizationâ€™s industry to account for domain-specific considerations",
+        "description": "Você adaptou os padrões existentes apropriados para o setor da organização para levar em consideração considerações específicas do domínio",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "54aca12ea18e4073becbdd356cd3b3ef",
-        "title": "Do you publish the organization's policies as test scripts or run-books for easy interpretation by development teams?",
+        "title": "Você publica as políticas da organização como scripts de teste ou livros de execução para fácil interpretação pelas equipes de desenvolvimento?",
         "titleLocation": "left",
-        "description": "You create verification checklists and test scripts where applicable, aligned with the policy's requirements and the implementation guidance in the associated standards",
+        "description": "Você cria listas de verificação de verificação e scripts de teste quando aplicável, alinhados com os requisitos da política e a orientação de implementação nos padrões associados",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some content"
+            "text": "Sim, algum conteúdo"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the content"
+            "text": "Sim, pelo menos metade do conteúdo"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the content"
+            "text": "Sim, a maior parte ou todo o conteúdo"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "073b78f0ce314757a05b15d9c6f96703",
-        "title": "Do you regularly report on policy and standard compliance, and use that information to guide compliance improvement efforts?",
+        "title": "Você relata regularmente sobre conformidade com políticas e padrões e usa essas informações para orientar os esforços de melhoria da conformidade?",
         "titleLocation": "left",
-        "description": "You have procedures (automated, if possible) to regularly generate compliance reports",
+        "description": "Você tem procedimentos (automatizados, se possível) para gerar regularmente relatórios de conformidade",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, but reporting is ad-hoc"
+            "text": "Sim, mas os relatórios são ad-hoc"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, we report at regular times"
+            "text": "Sim, reportamos em horários regulares"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, we report at least annually"
+            "text": "Sim, reportamos pelo menos anualmente"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "4bb7dd93f5874730bd84b41cb56ce60a",
-        "title": "Do you have a complete picture of your external compliance obligations?",
+        "title": "Você tem uma visão completa de suas obrigações externas de compliance??",
         "titleLocation": "left",
-        "description": "You have identified all sources of external compliance obligations",
+        "description": "Você identificou todas as fontes de obrigações externas de conformidade",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "84d5a7f8d9e647db95288329f64fc41d",
-        "title": "Do you have a standard set of security requirements and verification procedures addressing the organization's external compliance obligations?",
+        "title": "Você tem um conjunto padrão de requisitos de segurança e procedimentos de verificação que tratam das obrigações externas de conformidade da organização??",
         "titleLocation": "left",
-        "description": "You map each external compliance obligation to a well-defined set of application requirements",
+        "description": "Você mapeia cada obrigação de conformidade externa para um conjunto bem definido de requisitos de aplicativos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some obligations"
+            "text": "Sim, para algumas obrigações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the obligations"
+            "text": "Sim, para pelo menos metade das obrigações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the obligations"
+            "text": "Sim, para a maioria ou todas as obrigações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "6a81ec4bcd1f43de95b91a7f50a40244",
-        "title": "Do you regularly report on adherence to external compliance obligations and use that information to guide efforts to close compliance gaps?",
+        "title": "Você relata regularmente sobre a adesão às obrigações externas de conformidade e usa essas informações para orientar os esforços para fechar as lacunas de conformidade?",
         "titleLocation": "left",
-        "description": "You have established, well-defined compliance metrics",
+        "description": "Você estabeleceu métricas de conformidade bem definidas",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, but reporting is ad-hoc"
+            "text": "Sim, mas os relatórios são ad-hoc"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, we report at regular times"
+            "text": "Sim, reportamos em horários regulares"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, we report at least annually"
+            "text": "Sim, reportamos pelo menos anualmente"
           }
         ]
       }
     ],
-    "title": "Policy and Compliance",
+    "title": "Política e Conformidade",
     "state": "collapsed"
   });}
 export default policy;

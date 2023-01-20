@@ -21,24 +21,24 @@ const About = () => {
             </Head>
             <div>
                 
-                <h2 className = {styles.title} >About this tool</h2>
-                <p className = {styles.paragraph}>The SAMMwise web application provides a convenient alternative to the 
-                    OWASP SAMM Toolkit (Excel workbook) for capturing your SAMM assessment responses.
-                     Leveraging several open-source JavaScript frameworks, the SAMMwise application 
-                     provides an intuitive, page-oriented workflow for completing a SAMM assessment, 
-                     coupled with dynamic graphics to visualize assessment results.
+                <h2 className = {styles.title} >Sobre esta ferramenta</h2>
+                <p className = {styles.paragraph}>O aplicativo da web SAMMwise fornece uma alternativa conveniente para o 
+                     OWASP SAMM Toolkit (Excel Toolkit) para capturar suas respostas de avaliação SAMM.
+                     Aproveitando várias estruturas JavaScript de código aberto, o aplicativo SAMMwise 
+                     fornece um fluxo de trabalho intuitivo e orientado a páginas para concluir uma avaliação SAMM, 
+                     juntamente com gráficos dinâmicos para visualizar os resultados da avaliação.
                     </p>
 
-                <h2 className = {styles.title} >Current Capabilities</h2>  
-                    <li className = {styles.paragraph}>		Evaluating an organization’s existing software security practices;</li>
-                    <li className = {styles.paragraph}>		Building toward a balanced software security assurance program in well-defined iterations;</li>
-                    <li className = {styles.paragraph}>		Demonstrating concrete improvements to a security assurance program; and </li>
-                    <li className = {styles.paragraph}>		Defining and measuring security-related activities throughout an organization.  </li>  
-                <h2 className = {styles.title}>Future Enhancements</h2>  
-                    <li className = {styles.paragraph}>			Multi-phase roadmaps - Baseline, plus up to 5 implementation phases</li>
-                    <li className = {styles.paragraph}>			Comparison with multiple previous assessments</li>
-                    <li className = {styles.paragraph}>			Comparison with SAMM Benchmark data</li>
-                    <li className = {styles.paragraph}>			Contribution of de-identified assessment results to SAMM Benchmark Project   </li>  
+                <h2 className = {styles.title} >Capacidades Atuais</h2>  
+                    <li className = {styles.paragraph}>		Avaliar as práticas de segurança de software existentes em uma organização;</li>
+                    <li className = {styles.paragraph}>		Construindo em direção a um programa de garantia de segurança de software equilibrado em iterações bem definidas;</li>
+                    <li className = {styles.paragraph}>		Demonstrar melhorias concretas em um programa de garantia de segurança; e </li>
+                    <li className = {styles.paragraph}>		Definir e medir as atividades relacionadas à segurança em toda a organização.  </li>  
+                <h2 className = {styles.title}>Aprimoramentos futuros</h2>  
+                    <li className = {styles.paragraph}>			Roteiros multifásicos - Linha de base, mais até 5 fases de implementação</li>
+                    <li className = {styles.paragraph}>			Comparação com várias avaliações anteriores</li>
+                    <li className = {styles.paragraph}>			Comparação com os dados do Benchmark SAMM</li>
+                    <li className = {styles.paragraph}>			Contribuição dos resultados da avaliação não identificada para o Projeto de Referência SAMM   </li>  
                 <h2 className = {styles.title} >Version History</h2>
                 <div style={{float:"right"}}>
                     <Image src = "/DatacomLogo.png" width = {321} height = {61}/>

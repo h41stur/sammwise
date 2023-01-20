@@ -1,183 +1,183 @@
 const reqtest = () => {return ({
     "type": "panel",
-    "name": "Requirements-driven Testing",
+    "name": "Teste orientado a requisitos",
     "elements": [
       {
         "type": "radiogroup",
         "id": "cb085e0a25724700bc10c73cfcc8f6a5",
-        "title": "Do you test applications for the correct functioning of standard security controls?",
+        "title": "Você testa aplicativos para o funcionamento correto dos controles de segurança padrão?",
         "titleLocation": "left",
-        "description": "Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls",
+        "description": "O teste de segurança pelo menos verifica a implementação de autenticação, controle de acesso, validação de entrada, codificação e escape de dados e controles de criptografia",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "d6b26a63243d4142bd2a8317e2875a03",
-        "title": "Do you consistently write and execute test scripts to verify the functionality of security requirements?",
+        "title": "Você escreve e executa consistentemente scripts de teste para verificar a funcionalidade dos requisitos de segurança?",
         "titleLocation": "left",
-        "description": "You tailor tests to each application and assert expected security functionality",
+        "description": "Você adapta os testes para cada aplicativo e afirma a funcionalidade de segurança esperada",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "35413be30d9f415dbde45edbe3b17f31",
-        "title": "Do you automatically test applications for security regressions?",
+        "title": "Você testa aplicativos automaticamente para regressões de segurança?",
         "titleLocation": "left",
-        "description": "You consistently write tests for all identified bugs (possibly exceeding a pre-defined severity threshhold)",
+        "description": "Você consistentemente escreve testes para todos os bugs identificados (possivelmente excedendo um limite de gravidade pré-definido)",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "749893a53df24c32bc887b6d5f7b3f7b",
-        "title": "Do you test applications using randomization or fuzzing techniques?",
+        "title": "Você testa aplicativos usando técnicas de randomização ou fuzzing?",
         "titleLocation": "left",
-        "description": "Testing covers most or all of the application's main input parameters",
+        "description": "O teste abrange a maioria ou todos os principais parâmetros de entrada do aplicativo",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b2afb33fe6ef4b6e90e029059f7a7124",
-        "title": "Do you create abuse cases from functional requirements and use them to drive security tests?",
+        "title": "Você cria casos de abuso a partir de requisitos funcionais e os usa para conduzir testes de segurança?",
         "titleLocation": "left",
-        "description": "Important business functionality has corresponding abuse cases",
+        "description": "Funcionalidades comerciais importantes têm casos de abuso correspondentes",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou o tempo todo"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "814caca2fc5241dcb90c48302ac031b2",
-        "title": "Do you perform denial of service and security stress testing?",
+        "title": "Você realiza negação de serviço e testes de estresse de segurança?",
         "titleLocation": "left",
-        "description": "Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)",
+        "description": "Os testes de estresse visam recursos específicos do aplicativo (por exemplo, esgotamento da memória ao salvar grandes quantidades de dados em uma sessão do usuário)",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou o tempo todo"
           }
         ]
       }
     ],
-    "title": "Requirements-driven Testing",
+    "title": "Teste orientado a requisitos",
     "state": "collapsed"
   });}
 export default reqtest;

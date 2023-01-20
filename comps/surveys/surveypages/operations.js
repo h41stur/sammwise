@@ -5,7 +5,7 @@ import opman from "../surveypanels/operations/opman"
 
 //Skeleton of the Page 
 var tosend = {
-    name: "Operations",
+    name: "Operações",
     elements: [{
          //Append later
     

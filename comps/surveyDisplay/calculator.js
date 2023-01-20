@@ -3,28 +3,28 @@
 
 
 var allAnswersJSON = {
-    name:"Final Score",
+    name:"Score Final",
     companyname:"",
     projectname:"",
     description:"",
     score:0,
     Pages:[
         {
-            name:"Governance",
+            name:"Governança",
             score:0,
             panels:[
                 {
-                    name:"Strategy and Metrics",
+                    name:"Estratégia e Métricas",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Policy and Compliance",
+                    name:"Política e Conformidade",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Education and Guidance",
+                    name:"Educação e Orientação",
                     answers:[],
                     score:0
                 }
@@ -35,80 +35,80 @@ var allAnswersJSON = {
             score:0,
             panels:[
                 {
-                    name:"Security Architecture",
+                    name:"Arquitetura de Segurança",
                     answers:[],
                     score:0
                 },
                 {
-                    name: "Security Requirements",
+                    name: "Requisitos de Segurança",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Threat Assessment",
+                    name:"Avaliação de Ameaça",
                     answers:[],
                     score:0
                 }
             ]
         },
         {
-            name:"Implementation",
+            name:"Implementação",
             score:0,
             panels:[
                 {
-                    name:"Defect Management",
+                    name:"Gerenciamento de Defeitos",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Secure Build",
+                    name:"Construção Segura",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Secure Deployment",
+                    name:"Implantação Segura",
                     answers:[],
                     score:0
                 }
             ]
         },
         {
-            name:"Verification",
+            name:"Verificação",
             score:0,
             panels:[
                 {
-                    name:"Architecture Assessment",
+                    name:"Avaliação de Arquitetura",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Requirements Testing",
+                    name:"Teste de Requisitos",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Security Testing",
+                    name:"Teste de Segurança",
                     answers:[],
                     score:0
                 }
             ]
         },
         {
-            name:"Operations",
+            name:"Operações",
             score:0,
             panels:[
                 {
-                    name:"Environment Management",
+                    name:"Gestão de Ambiente",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Incident Management",
+                    name:"Gerenciamento de Incidentes",
                     answers:[],
                     score:0
                 },
                 {
-                    name:"Operations Management",
+                    name:"Gerenciamento de Operações",
                     answers:[],
                     score:0
                 }

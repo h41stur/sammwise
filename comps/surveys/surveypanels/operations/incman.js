@@ -1,183 +1,183 @@
 const incman = () => {return ({
     "type": "panel",
-    "name": "Incident Management",
+    "name": "Gerenciamento de Incidentes",
     "elements": [
       {
         "type": "radiogroup",
         "id": "1e005e11997f4929a12fdb939599e77e",
-        "title": "Do you analyze log data for security incidents periodically?",
+        "title": "Você analisa dados de log para incidentes de segurança periodicamente?",
         "titleLocation": "left",
-        "description": "You have a contact point for the creation of security incidents",
+        "description": "Você tem um ponto de contato para a criação de incidentes de segurança",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "13b9816c06444ba99584e657bfa5833d",
-        "title": "Do you follow a documented process for incident detection?",
+        "title": "Você segue um processo documentado para detecção de incidentes?",
         "titleLocation": "left",
-        "description": "The process has a dedicated owner",
+        "description": "O processo tem um proprietário dedicado",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "09744a244f8d4076bec35130da92ea2b",
-        "title": "Do you review and update the incident detection process regularly?",
+        "title": "Você revisa e atualiza o processo de detecção de incidentes regularmente?",
         "titleLocation": "left",
-        "description": "You perform reviews at least annually",
+        "description": "Você realiza revisões pelo menos anualmente",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "0d889a913d484eb39b80f096f3a66019",
-        "title": "Do you respond to detected incidents?",
+        "title": "Você responde a incidentes detectados?",
         "titleLocation": "left",
-        "description": "You have a defined person or role for incident handling",
+        "description": "Você tem uma pessoa ou função definida para lidar com incidentes",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some incidents"
+            "text": "Sim, para alguns incidentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the incidents"
+            "text": "Sim, em pelo menos metade dos incidentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the incidents"
+            "text": "Sim, para a maioria ou todos os incidentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "dbb83b0d5b504db6a170710df4df347f",
-        "title": "Do you use a repeatable process for incident handling?",
+        "title": "Você usa um processo repetível para tratamento de incidentes?",
         "titleLocation": "left",
-        "description": "You have an agreed upon incident classification",
+        "description": "Você tem uma classificação de incidente acordada",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some incident types"
+            "text": "Sim, para alguns tipos de incidentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the incident types"
+            "text": "Sim, para pelo menos metade dos tipos de incidentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the incident types"
+            "text": "Sim, para a maioria ou todos os tipos de incidentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "91bd2bdc1c734d8dbffc30e37158ab00",
-        "title": "Do you have a dedicated incident response team available?",
+        "title": "Você tem uma equipe dedicada de resposta a incidentes disponível?",
         "titleLocation": "left",
-        "description": "The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so",
+        "description": "A equipe realiza a análise de causa raiz para todos os incidentes de segurança, a menos que haja um motivo específico para não fazê-lo",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou o tempo todo"
           }
         ]
       }
     ],
-    "title": "Incident Management",
+    "title": "Gerenciamento de Incidentes",
     "state": "expanded"
   });}
 export default incman;

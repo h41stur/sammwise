@@ -1,183 +1,183 @@
 const envman = () => {return ({
     "type": "panel",
-    "name": "Environmental Management",
+    "name": "Gestão de Ambiente",
     "elements": [
       {
         "type": "radiogroup",
         "id": "1e005e11997f4929a12fdb939599e77e",
-        "title": "Do you harden configurations for key components of your technology stacks?",
+        "title": "Você fortalece as configurações para os principais componentes de suas pilhas de tecnologia?",
         "titleLocation": "left",
-        "description": "You have identified the key components in each technology stack used",
+        "description": "Você identificou os principais componentes em cada pilha de tecnologia usada",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "41d33402a94c49538554ce77e9de6a72",
-        "title": "Do you have hardening baselines for your components?",
+        "title": "Você tem linhas de base de endurecimento para seus componentes?",
         "titleLocation": "left",
-        "description": "You have assigned an owner for each baseline",
+        "description": "Você atribuiu um proprietário para cada linha de base",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "f4ec030280ee417099eaf12752a542ae",
-        "title": "Do you monitor and enforce conformity with hardening baselines?",
+        "title": "Você monitora e reforça a conformidade com as linhas de base de endurecimento?",
         "titleLocation": "left",
-        "description": "You perform conformity checks regularly, preferably using automation",
+        "description": "Você realiza verificações de conformidade regularmente, de preferência usando automação",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "180e194b165d421c9d2c89258195a792",
-        "title": "Do you identify and patch vulnerable components?",
+        "title": "Você identifica e corrige componentes vulneráveis?",
         "titleLocation": "left",
-        "description": "You have an up-to-date list of components, including version information",
+        "description": "Você tem uma lista atualizada de componentes, incluindo informações de versão",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "0844b1a3be8b49ec83c7377a9f797cfc",
-        "title": "Do you follow an established process for updating components of your technology stacks?",
+        "title": "Você segue um processo estabelecido para atualizar componentes de suas pilhas de tecnologia?",
         "titleLocation": "left",
-        "description": "The process includes vendor information for third-party patches",
+        "description": "O processo inclui informações do fornecedor para patches de terceiros",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "6e72179a31c04024bb649346bfb03eb5",
-        "title": "Do you regularly evaluate components and review patch level status?",
+        "title": "Você avalia regularmente os componentes e revisa o status do nível do patch?",
         "titleLocation": "left",
-        "description": "You update the list with components and versions",
+        "description": "Você atualiza a lista com componentes e versões",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       }
     ],
-    "title": "Environmental Management",
+    "title": "Gestão de Ambiente",
     "state": "collapsed"
   });}
 export default envman;

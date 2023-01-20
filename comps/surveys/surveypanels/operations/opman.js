@@ -1,183 +1,183 @@
 const opman = () => {return ({
     "type": "panel",
-    "name": "Operational Management",
+    "name": "Gestão operacional",
     "elements": [
       {
         "type": "radiogroup",
         "id": "41b0c2ab37774000b2b81077605bbd93",
-        "title": "Do you protect and handle information according to protection requirements for data stored and processed on each application?",
+        "title": "Você protege e lida com informações de acordo com os requisitos de proteção para dados armazenados e processados ​​em cada aplicativo?",
         "titleLocation": "left",
-        "description": "You know the data elements processed and stored by each application",
+        "description": "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "424c004afec041058e89c396c9e88930",
-        "title": "Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?",
+        "title": "Você mantém um catálogo de dados, incluindo tipos, níveis de sensibilidade e locais de processamento e armazenamento?",
         "titleLocation": "left",
-        "description": "The data catalog is stored in an accessible location",
+        "description": "O catálogo de dados é armazenado em um local acessível",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some of our data"
+            "text": "Sim, para alguns dos nossos dados"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of our data"
+            "text": "Sim, para pelo menos metade dos nossos dados"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of our data"
+            "text": "Sim, para a maioria ou todos os nossos dados"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "8176c4588bdd4e979e3c82566450696a",
-        "title": "Do you regularly review and update the data catalog and your data protection policies and procedures?",
+        "title": "Você revisa e atualiza regularmente o catálogo de dados e suas políticas e procedimentos de proteção de dados?",
         "titleLocation": "left",
-        "description": "You have automated monitoring to detect attempted or actual violations of the Data Protection Policy",
+        "description": "Você automatizou o monitoramento para detectar tentativas ou violações reais da Política de Proteção de Dados",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, we do it when requested"
+            "text": "Sim, fazemos quando solicitado"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, we do it every few years"
+            "text": "Sim, fazemos isso a cada poucos anos"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, we do it at least annually"
+            "text": "Sim, fazemos isso pelo menos anualmente"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "b50d81aba3734cb59d618fd74bc5c99e",
-        "title": "Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?",
+        "title": "Você identifica e remove sistemas, aplicativos, dependências de aplicativos ou serviços que não são mais usados, chegaram ao fim da vida útil ou não são mais desenvolvidos ou suportados ativamente?",
         "titleLocation": "left",
-        "description": "You do not use unsupported applications or dependencies",
+        "description": "Você não usa aplicativos ou dependências sem suporte",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "f9c5a8649ddf4168b6f62d0018a32704",
-        "title": "Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?",
+        "title": "Você segue um processo estabelecido para remover todos os recursos associados, como parte da desativação de sistemas, aplicativos, dependências de aplicativos ou serviços não utilizados?",
         "titleLocation": "left",
-        "description": "You document the status of support for all released versions of your products, in an accessible location",
+        "description": "Você documenta o status do suporte para todas as versões lançadas de seus produtos, em um local acessível",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou o tempo todo"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "54ad3e4182844623b3290901c1a1932d",
-        "title": "Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?",
+        "title": "Você avalia regularmente o estado do ciclo de vida e o status do suporte de cada ativo de software e componente de infraestrutura subjacente e estima o fim de sua vida útil?",
         "titleLocation": "left",
-        "description": "Your end of life management process is agreed upon",
+        "description": "Seu processo de gerenciamento de fim de vida é acordado",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some of the assets"
+            "text": "Sim, para alguns dos ativos"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the assets"
+            "text": "Sim, para pelo menos metade dos ativos"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the assets"
+            "text": "Sim, para a maioria ou todos os ativos"
           }
         ]
       }
     ],
-    "title": "Operational Management",
+    "title": "Gestão operacional",
     "state": "collapsed"
   });}
 export default opman;

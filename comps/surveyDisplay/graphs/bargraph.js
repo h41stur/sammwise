@@ -3,7 +3,7 @@ export default class Bargraph{
         this.metaData = {
             labels: [],
             datasets: [{
-              label: 'Current Assessment',
+              label: 'Avaliação Atual',
               backgroundColor: 'rgba(255,99,132,0.7)',
               borderColor: 'rgb(11,227,210)',
               borderWidth: 1,

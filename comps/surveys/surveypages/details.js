@@ -3,18 +3,18 @@ var tosend = {
   elements: [{
     
       "type": "text",
-      "name": "Company Name",
+      "name": "Nome da Empresa",
      },
      {
       "type": "text",
-      "name": "Project name"
+      "name": "Nome do Projeto"
      },
      {
       "type": "text",
-      "name": "Description of Project"
+      "name": "Descrição do Projeto"
      }
     ],
-    "description": "These are optional, the only use for these will be to help categorize the results you receive, eg: title of results document ETC "
+    "description": "Estes são opcionais, o único uso para eles será ajudar a categorizar os resultados que você recebe, por exemplo: título do documento de resultados ETC "
 
 }
 

@@ -50,22 +50,22 @@ export default function Home() {
     </Head>
     <div>
       <h1 className = {styles.title}>SAMMWise</h1>
-      <p className = {styles.paragraph}>SAMMwise provides a convenient, browser-based interface for capturing SAMM assessment responses. With this tool, users can: </p>
-          <li className = {styles.paragraph}>	Enter responses for a single assessment</li>
-          <li className = {styles.paragraph}>	Visualize the maturity results based on entered responses</li>
-          <li className = {styles.paragraph}>	Compare maturity results to those for a previous assessment</li>
-          <p className = {styles.paragraph}> Assessment responses can be saved to the user's local computer, in a JSON-formatted text file. Responses are retained only on the local system and are not shared with any other system or persons.
+      <p className = {styles.paragraph}>SAMMwise fornece uma interface conveniente baseada em navegador para capturar respostas de avaliação SAMM. Com esta ferramenta, os usuários podem: </p>
+          <li className = {styles.paragraph}>	Insira as respostas para uma única avaliação</li>
+          <li className = {styles.paragraph}>	Visualize os resultados de maturidade com base nas respostas inseridas</li>
+          <li className = {styles.paragraph}>	Compare os resultados de maturidade com os de uma avaliação anterior</li>
+          <p className = {styles.paragraph}> As respostas da avaliação podem ser salvas no computador local do usuário, em um arquivo de texto no formato JSON. As respostas são retidas apenas no sistema local e não são compartilhadas com nenhum outro sistema ou pessoas.
 
       </p>
 
-      <h1 className = {styles.title}>About SAMM</h1>
-      <p className = {styles.paragraph}>The Open Web Application Security Project's Software Assurance Maturity Model (OWASP SAMM) is an open framework to help organizations formulate and implement a strategy for software security, tailored to the specific risks facing the organization.  </p>
-      <p className = {styles.paragraph}>The resources provided by SAMM (including this tool) are intended to aid in: </p>
-          <li className = {styles.paragraph}>		Evaluating an organization’s existing software security practices;</li>
-          <li className = {styles.paragraph}>		Building toward a balanced software security assurance program in well-defined iterations;</li>
-          <li className = {styles.paragraph}>		Demonstrating concrete improvements to a security assurance program; and </li>
-          <li className = {styles.paragraph}>		Defining and measuring security-related activities throughout an organization.  </li>
-      <p className = {styles.paragraph}>SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. Additionally, this model can be applied organization-wide, for a single line-of-business, or even for an individual project.  </p>
+      <h1 className = {styles.title}>Sobre o SAMM</h1>
+      <p className = {styles.paragraph}>Modelo de Maturidade de Software Assurance do Open Web Application Security Project (OWASP SAMM) é uma estrutura aberta para ajudar as organizações a formular e implementar uma estratégia de segurança de software, adaptada aos riscos específicos enfrentados pela organização.  </p>
+      <p className = {styles.paragraph}>Os recursos disponibilizados pelo SAMM (incluindo esta ferramenta) destinam-se a auxiliar na: </p>
+          <li className = {styles.paragraph}>		Avaliar as práticas de segurança de software existentes em uma organização;</li>
+          <li className = {styles.paragraph}>		Construindo em direção a um programa de garantia de segurança de software equilibrado em iterações bem definidas;</li>
+          <li className = {styles.paragraph}>		Demonstrar melhorias concretas para um programa de garantia de segurança; e </li>
+          <li className = {styles.paragraph}>		Definir e medir as atividades relacionadas à segurança em toda a organização.  </li>
+      <p className = {styles.paragraph}>O SAMM foi definido com flexibilidade em mente para que possa ser utilizado por organizações de pequeno, médio e grande porte usando qualquer estilo de desenvolvimento. Além disso, esse modelo pode ser aplicado em toda a organização, para uma única linha de negócios ou até mesmo para um projeto individual.  </p>
     </div>
     
     

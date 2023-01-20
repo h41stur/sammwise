@@ -38,7 +38,7 @@ const additionalDataset = new Dataset()
 totalsBarGraph.set_aspect_ratio(3)
 bussFuncBarGraph.set_aspect_ratio(1)
 practiceBarGraph.set_aspect_ratio(1)
-var l = ["No","Yes, for some","Yes, for most","Yes, for all"]
+var l = ["Não","Sim, para alguns","Sim, para a maioria","Sim, para todos"]
 totalsBarGraph.set_labels(l)
 
 
@@ -109,7 +109,7 @@ const results = () => {
                     }
                     
                 }
-                completionText = 'Thank you for completing the questionnaire'   
+                completionText = 'Obrigado por preencher o questionário'   
                 
                 // put all relevant data in to the JSON for the Charts
                 // surveyCalculator JSON returns the sorted scores from the survey where Pages
@@ -195,12 +195,12 @@ const results = () => {
                         // }
 
 
-                        totalsBarGraphData[0] = testCalc.responseCount["No"]
-                        totalsBarGraphData[1] = testCalc.responseCount["Yes, for some"]
-                        totalsBarGraphData[2] = testCalc.responseCount["Yes, for most"]
-                        totalsBarGraphData[3] = testCalc.responseCount["Yes, for all"]
+                        totalsBarGraphData[0] = testCalc.responseCount["Não"]
+                        totalsBarGraphData[1] = testCalc.responseCount["Sim, para alguns"]
+                        totalsBarGraphData[2] = testCalc.responseCount["Sim, para a maioria"]
+                        totalsBarGraphData[3] = testCalc.responseCount["Sim, para todos"]
                         console.log(testCalc.responseCount);
-                        var totalsCount = [ testCalc.responseCount["No"],testCalc.responseCount["Yes, for some"], testCalc.responseCount["Yes, for most"], testCalc.responseCount["Yes, for all"]];
+                        var totalsCount = [ testCalc.responseCount["Não"],testCalc.responseCount["Sim, para alguns"], testCalc.responseCount["Sim, para a maioria"], testCalc.responseCount["Sim, para todos"]];
 
                         
                         totalsBarGraph.metaData.datasets[dataNum].data = []
@@ -226,10 +226,10 @@ const results = () => {
                         
                         console.log(finalScore[dataNum])
                         console.log(finalScore);
-                        companyname = dataENV[dataNum]['Company Name']
+                        companyname = dataENV[dataNum]['Nome da Empresa']
                         completionText+=" "+ companyname
-                        projectName = dataENV[dataNum]["Project name"]
-                        projectDesc = dataENV[dataNum]["Description of Project"]
+                        projectName = dataENV[dataNum]["Nome do Projeto"]
+                        projectDesc = dataENV[dataNum]["Descrição do Projeto"]
                     // }
                 }
                 setDisplay(1)
@@ -259,9 +259,9 @@ const results = () => {
                             <Box width ={[1]} p = {3} id="box1" className="totalGraphs">
                                 {/* <h2 id="finalscore">{showPrevious? 'Your overall score is: '+ finalScore[0] + ' Your score last time was: ' +finalScore[1]:'Your overall score is: '+ finalScore[0]}</h2>
                                 <GaugeChart id="gauge-chart2" nrOfLevels={4}   textColor ={"#000000"} colors={[" #ff6384","#ff9f40","#ffcd56","#4bc0c0"]} className="gauge"/> */}
-                                <h2 id="finalscore">{showPrevious? 'Your overall score is: '+ finalScore[0]+'/3' + ' Your score last time was: ' +finalScore[1] +'/3':'Your overall score is: '+ finalScore[0] +'/3'}</h2>
+                                <h2 id="finalscore">{showPrevious? 'Sua pontuação geral é: '+ finalScore[0]+'/3' + ' Sua pontuação da última vez foi: ' +finalScore[1] +'/3':'Sua pontuação geral é: '+ finalScore[0] +'/3'}</h2>
                                 <GaugeChart id="gauge-chart2" nrOfLevels={4}  percent={percentageScore} textColor ={"#000000"} colors={[" #ff6384","#ff9f40","#ffcd56","#4bc0c0"]} className="gauge"/>
-                                <h2 id="totalsbargraph" className="totalsBarHeader"> Response count by value </h2>
+                                <h2 id="totalsbargraph" className="totalsBarHeader"> Contagem de respostas por valor </h2>
                                 <Bar data = {totalsBarGraph.metaData} options = {totalsBarGraph.layout_props} className='totalsBar' />
                             </Box> 
                         </Flex>
@@ -269,11 +269,11 @@ const results = () => {
                     <div label='Business Functions'>
                         <Flex flexWrap = 'wrap'>
                             <Box width ={[1,1/2]} p = {3} className="bussFuncRadarBox" >
-                                <h2 id = "busfuncradargraph"> Maturity by Business Function </h2>
+                                <h2 id = "busfuncradargraph"> Maturidade por Função de Negócios </h2>
                                 <Radar data = {bussFuncRadar.metaData}  options = {bussFuncRadar.layout_props} className='bussFuncRadar'/>
                             </Box>
                             <Box width ={[1,1/2]} p = {3} className="bussFuncBarBox">
-                                <h2> Maturity by Business Function </h2>
+                                <h2> Maturidade por Função de Negócios </h2>
                                 <Bar data = {bussFuncBarGraph.metaData} options = {bussFuncBarGraph.layout_props} className='bussFuncBar'/>
                             </Box>                  
                         </Flex>
@@ -281,32 +281,32 @@ const results = () => {
                     <div label='Practices' className="practices">
                         <Flex flexWrap = 'wrap'>
                             <Box width ={[1,1/2]} p = {3} className="practiceRadarBox">
-                                <h2 id = "pracradargraph"> Maturity by Practice </h2>
+                                <h2 id = "pracradargraph"> Maturidade por Prática </h2>
                                 <Radar  data = {practiceRadar.metaData}  options = {practiceRadar.layout_props} className='practiceRadar'/>
                             </Box>
                             <Box width ={[1,1/2]} p = {3} className="practicesBarBox">
-                                <h2 id ="pracbargraph"> Maturity by Practice </h2>
+                                <h2 id ="pracbargraph"> Maturidade por Prática </h2>
                                 <Bar data = {practiceBarGraph.metaData} options = {practiceBarGraph.layout_props} className='practiceBar'/>
                             </Box>
                         </Flex> 
                     </div>
                 </div>
                     <div className="jsonDownload">     
-                        <h2 className="jsonDownload">Do you wish to save your results file in JSON?</h2>
+                        <h2 className="jsonDownload">Deseja salvar seu arquivo de resultados em JSON?</h2>
                         <button className = 'btn'
                             onClick={()=> saveText(JSON.stringify(dataENV[0]), JSON.stringify(companyname)+JSON.stringify(projectName)+".json")}>
                                 Save file
                         </button>
-                        <h2 className="jsonDownload">Do you wish to load your previous results to compare?</h2>
+                        <h2 className="jsonDownload">Deseja carregar seus resultados anteriores para comparar?</h2>
                         <InputFile fileName = 'prevResults' className="jsonDownload"/>
                     </div>
                 
                 {/* <ComponentToPrint completionText = {completionText} projectName = {projectName} projectDesc = {projectDesc} finalScore = {finalScore} graphObjects={graphObjects}/> */}
             
             <div>
-                <h2 className='jsonDownload'> Do you wish to print or save the graphs as a pdf?</h2>
+                <h2 className='jsonDownload'> Deseja imprimir ou salvar os gráficos em pdf?</h2>
                     <ReactToPrint 
-                    trigger={() => <button className='btn'>Export graphs</button>}
+                    trigger={() => <button className='btn'>Exportar gráficos</button>}
                     content={()=>  componentRef.current}
                     />
             </div>

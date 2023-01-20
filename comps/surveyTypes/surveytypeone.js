@@ -55,7 +55,7 @@ const Mysurvey = (prop) => {
     const router = useRouter();
     const [display, setDisplay] = useState(false);
     const [populateState,setPopulateState] = useState(false);
-    const [pageState, setPageState] = useState("Governance"); 
+    const [pageState, setPageState] = useState("Governança"); 
     const [dropDownState, setDropDownState] = useState(false);
     const [isDetailsPage, setDetailsPage] = useState(false);
     const [reloadSurvey, setReloadSurvey] = useState(false);
@@ -118,11 +118,11 @@ const Mysurvey = (prop) => {
         a.setAttribute('href', 'data:text/plain;charset=utf-8,'+encodeURIComponent(JSON.stringify(data)));
         var ts = formatDate(new Date());
         console.log(data);
-        if (data['Company Name'] != null && data['Company Name'] != "") {
-            if (data['Project name'] != null && data['Project name'] != "") {
-                var fileName = data['Company Name'] + '-' + data['Project name'] + '-'+ts+'.json';
+        if (data['Nome da Empresa'] != null && data['Nome da Empresa'] != "") {
+            if (data['Nome do Projeto'] != null && data['Nome do Projeto'] != "") {
+                var fileName = data['Nome da Empresa'] + '-' + data['Nome do Projeto'] + '-'+ts+'.json';
             } else {
-            var fileName = data['Company Name'] + '-'+ts+'.json';
+            var fileName = data['Nome da Empresa'] + '-'+ts+'.json';
             }
         } else {
             var fileName = "SAMMAssessmentResponses-"+ts+".json";
@@ -162,14 +162,14 @@ const Mysurvey = (prop) => {
                     
                 }
                 else if(survey.currentPageNo == 1){
-                    pageName = "Implementation";
+                    pageName = "Implementação";
                 }
                 else if(survey.currentPageNo == 2){
-                    pageName = "Verification";
+                    pageName = "Verificação";
                     
                 }
                 else if(survey.currentPageNo == 3){  
-                    pageName = "Operations";
+                    pageName = "Operações";
 
                 }
                 else if(survey.currentPageNo == 4){
@@ -367,15 +367,15 @@ const Mysurvey = (prop) => {
                     var nextbtnText;
                     
                     if(isLastPanel(index)){
-                        nextbtnText = "Next Page";
+                        nextbtnText = "Próxima Página";
                     } else{
-                        nextbtnText = "Next Practice";
+                        nextbtnText = "Próxima Prática";
                     }
                     
                     var prevPanel = index - 1;
                     if (!(isFirstPanel(index))){
                         if(document.getElementById(prevID) == null){
-                            var prevbtn = createPanelButton("Previous Practice", prevID);
+                            var prevbtn = createPanelButton("Prática Anterior", prevID);
                             prevbtn.onclick = function () {
                                 panels[index].collapse();
                                 panels[prevPanel].expand();
@@ -439,7 +439,7 @@ const Mysurvey = (prop) => {
 
 
     function clearAnswers(){
-        let isOK = confirm('This will clear all answers do you wish to continue?')
+        let isOK = confirm('Isso limpará todas as respostas. Você deseja continuar?')
         
         if (isOK){
             
@@ -474,8 +474,8 @@ const Mysurvey = (prop) => {
 // return a page full of the Survey.JS json that was built in the "surveys" Folder 
     return (
         <>
-            <h2>Would you like to use previous results to populate the questionnaire?</h2>
-            <p>If you have a file of unfinished results that you wish to go back to you can upload them here and the questionnaire will autopopulate with your answers</p>
+            <h2>Você gostaria de usar resultados anteriores para preencher o questionário?</h2>
+            <p>Se você tiver um arquivo de resultados inacabados para o qual deseja voltar, pode carregá-los aqui e o questionário será preenchido automaticamente com suas respostas</p>
             <DropButton name = "Load Results" state ={dropDownState} onClick= {value =>handleDropDownButton(value)}/>
                 {dropDownState? <InputFile fileName="loadedResults" pageName="assesment"/>:null}
 
@@ -483,7 +483,7 @@ const Mysurvey = (prop) => {
             
                     <SurveyButton name="Clear" boolean ={false} onClick={() => clearAnswers(true)}/>
 
-                    <button className="SaveResponses" onClick={()=> saveResponses()}> Save Responses </button>
+                    <button className="SaveResponses" onClick={()=> saveResponses()}> Salvar Respostas </button>
                         
             </div>
             
@@ -497,11 +497,11 @@ const Mysurvey = (prop) => {
             <div className="pageNav">
                 {isDetailsPage?
                     <>
-                        <button className="NextPage" onClick={()=> changePage("next")}> Complete </button>
+                        <button className="NextPage" onClick={()=> changePage("next")}> Completo </button>
                     </>
                 :
                 <>
-                        <button className="NextPage" onClick={()=> changePage("next")}> Next Page </button>
+                        <button className="NextPage" onClick={()=> changePage("next")}> Próxima página </button>
                 </>       
                 }
             </div>

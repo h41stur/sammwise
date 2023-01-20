@@ -2,18 +2,18 @@ export default class assessmentCalculator{
     constructor(answerValues){
         this.answerValues = answerValues;
         this.sammModel = {
-            "Governance":{
+            "Governança":{
                 "totalScore":0,
                 "practices":{
-                    "Strategy and Metrics":{
+                    "Estratégia e Métricas":{
                         "answers": this.getAnswerMap(1),
                         "score":0
                     },
-                    "Policy and Compliance":{
+                    "Política e Conformidade":{
                             "answers":this.getAnswerMap(7),
                             "score":0
                         },
-                    "Education and Guidance":{
+                    "Educação e Orientação":{
                         "answers":this.getAnswerMap(13),
                         "score":0
                     }
@@ -23,66 +23,66 @@ export default class assessmentCalculator{
             "Design":{
                 "totalScore":0,
                 "practices":{
-                    "Threat Assessment":{
+                    "Avaliação de Ameaça":{
                         "answers": this.getAnswerMap(19),
                         "score":0
                     },
-                    "Security Requirements":{
+                    "Requisitos de Segurança":{
                             "answers":this.getAnswerMap(25),
                             "score":0
                         },
-                    "Security Architecture":{
+                    "Arquitetura de Segurança":{
                         "answers":this.getAnswerMap(31),
                         "score":0
                     }
                 }
             },
-            "Implementation":{
+            "Implementação":{
                 "totalScore":0,
                 "practices":{
-                    "Secure Build":{
+                    "Construção Segura":{
                         "answers": this.getAnswerMap(37),
                         "score":0
                     },
-                    "Secure Deployment":{
+                    "Implantação Segura":{
                             "answers":this.getAnswerMap(43),
                             "score":0
                         },
-                    "Defect Management":{
+                    "Gerenciamento de Defeitos":{
                         "answers":this.getAnswerMap(49),
                         "score":0
                     }
                 }
             },
-            "Verification":{
+            "Verificação":{
                 "totalScore":0,
                 "practices":{
-                    "Architecture Assessment":{
+                    "Avaliação de Arquitetura":{
                         "answers": this.getAnswerMap(55),
                         "score":0
                     },
-                    "Requirements Testing":{
+                    "Teste de Requisitos":{
                             "answers":this.getAnswerMap(61),
                             "score":0
                         },
-                    "Security Testing":{
+                    "Teste de Segurança":{
                         "answers":this.getAnswerMap(67),
                         "score":0
                     }
                 }
             },
-            "Operations":{
+            "Operações":{
                 "totalScore":0,
                 "practices":{
-                    "Incident Management":{
+                    "Gerenciamento de Incidentes":{
                         "answers": this.getAnswerMap(73),
                         "score":0
                     },
-                    "Environment Management":{
+                    "Gestão de Ambiente":{
                             "answers":this.getAnswerMap(79),
                             "score":0
                         },
-                    "Operations Management":{
+                    "Gerenciamento de Operações":{
                         "answers":this.getAnswerMap(85),
                         "score":0
                     }
@@ -91,11 +91,11 @@ export default class assessmentCalculator{
         }
         this.overallScore = null;
         this.responseCount = {
-            "No":0,
-            "Yes, for some":0,
-            "Yes, for most": 0,
-            "Yes, for all":0}
-        this.businessFunctionNames = ["Governance", "Design", "Implementation", "Verification", "Operations"]
+            "Não":0,
+            "Sim, para alguns":0,
+            "Sim, para a maioria": 0,
+            "Sim, para todos":0}
+        this.businessFunctionNames = ["Governance", "Design", "Implementação", "Verificação", "Operações"]
         this.practiceNames = []
         this.businessFunctionScores = []
         this.practiceScores = []
@@ -126,16 +126,16 @@ export default class assessmentCalculator{
     sortResponseCount(values){
         for(let i =0; i<values.length;i++){
             if(values[i] == 0){
-                this.responseCount["No"]++
+                this.responseCount["Não"]++
             }
             if(values[i] == 0.25){
-                this.responseCount["Yes, for some"]++
+                this.responseCount["Sim, para alguns"]++
             }
             if(values[i] == 0.5){
-                this.responseCount["Yes, for most"]++
+                this.responseCount["Sim, para a maioria"]++
             }
             if(values[i] == 1){
-                this.responseCount["Yes, for all"]++
+                this.responseCount["Sim, para todos"]++
             }
         }
     }

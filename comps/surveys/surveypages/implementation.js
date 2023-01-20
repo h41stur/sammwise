@@ -5,7 +5,7 @@ import securedeploymentJSON from "../surveypanels/implementation/securedeploymen
 
 //Skeleton of the Page 
 var tosend =  {
-    name: "Implementation",
+    name: "Implementação",
     elements: [{
          //Append later
     }

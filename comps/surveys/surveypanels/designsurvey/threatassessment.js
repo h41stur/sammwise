@@ -1,183 +1,183 @@
 const threatassessment = () => {return ({
     "type": "panel",
-    "name": "Threat Assessment",
+    "name": "Avaliação de ameaça",
     "elements": [
       {
         "type": "radiogroup",
         "id": "71c02652a9ba4b10a0cc0179c7ce869f",
-        "title": "Do you classify applications according to business risk based on a simple and predefined set of questions?",
+        "title": "Você classifica os aplicativos de acordo com o risco comercial com base em um conjunto simples e predefinido de perguntas?",
         "titleLocation": "left",
-        "description": "An agreed-upon risk classification exists",
+        "description": "Existe uma classificação de risco acordada",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "897306b66f16454eab7b5a2355d31c11",
-        "title": "Do you use centralized and quantified application risk profiles to evaluate business risk?",
+        "title": "Você usa perfis de risco de aplicativo centralizados e quantificados para avaliar o risco de negócios?",
         "titleLocation": "left",
-        "description": "The application risk profile is in line with the organizational risk standard",
+        "description": "O perfil de risco do aplicativo está alinhado com o padrão de risco organizacional",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "7e541611f3c749f285ac27f0a9ba7d55",
-        "title": "Do you regularly review and update the risk profiles for your applications?",
+        "title": "Você revisa e atualiza regularmente os perfis de risco de seus aplicativos?",
         "titleLocation": "left",
-        "description": "The organizational risk standard considers historical feedback to improve the evaluation method",
+        "description": "O padrão de risco organizacional considera o feedback histórico para melhorar o método de avaliação",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, sporadically"
+            "text": "Sim, esporadicamente"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, upon change of the application"
+            "text": "Sim, mediante alteração da aplicação"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, at least annually"
+            "text": "Sim, pelo menos anualmente"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "e9dcf4f79e2e487fb74df5e15a14a91b",
-        "title": "Do you identify and manage architectural design flaws with threat modeling?",
+        "title": "Você identifica e gerencia falhas de projeto arquitetônico com modelagem de ameaças?",
         "titleLocation": "left",
-        "description": "You perform threat modeling for high-risk applications",
+        "description": "Você executa modelagem de ameaças para aplicativos de alto risco",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "42cfabd13db34fd0b35e92af917eb1b8",
-        "title": "Do you use a standard methodology, aligned on your application risk levels?",
+        "title": "Você usa uma metodologia padrão, alinhada aos seus níveis de risco de aplicativo?",
         "titleLocation": "left",
-        "description": "You train your architects, security champions, and other stakeholders on how to do practical threat modeling",
+        "description": "Você treina seus arquitetos, defensores da segurança e outras partes interessadas sobre como fazer modelagem prática de ameaças",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, em pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "cd639e5458ca4f60be60bc9d47314648",
-        "title": "Do you regularly review and update the threat modeling methodology for your applications?",
+        "title": "Você revisa e atualiza regularmente a metodologia de modelagem de ameaças para seus aplicativos?",
         "titleLocation": "left",
-        "description": "The threat model methodology considers historical feedback for improvement",
+        "description": "A metodologia do modelo de ameaças considera o feedback histórico para melhoria",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, but review is ad-hoc"
+            "text": "Sim, mas a revisão é ad hoc"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, we review it at regular times"
+            "text": "Sim, revisamos em horários regulares"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, we review it at least annually"
+            "text": "Sim, revisamos pelo menos anualmente"
           }
         ]
       }
     ],
-    "title": "Threat Assessment",
+    "title": "Avaliação de ameaça",
     "state": "expanded"
   });}
 export default threatassessment;
